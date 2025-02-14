@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { Lightroom } from 'lightroom';
+import { Lightroom } from 'lightroom-ts';
 
 const { stringifyQuery } = Lightroom.prototype as any;
 

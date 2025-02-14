@@ -1,5 +1,5 @@
-import { multipartFormRequestOptions, createForm } from 'lightroom/internal/uploads';
-import { toFile } from 'lightroom/uploads';
+import { multipartFormRequestOptions, createForm } from 'lightroom-ts/internal/uploads';
+import { toFile } from 'lightroom-ts/uploads';
 
 describe('form data validation', () => {
   test('valid values do not error', async () => {
