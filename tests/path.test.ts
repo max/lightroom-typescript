@@ -1,4 +1,4 @@
-import { createPathTagFunction, encodeURIPath } from 'lightroom/internal/utils/path';
+import { createPathTagFunction, encodeURIPath } from 'lightroom-ts/internal/utils/path';
 import { inspect } from 'node:util';
 
 describe('path template tag function', () => {

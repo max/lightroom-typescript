@@ -1,5 +1,5 @@
 {
-  "name": "lightroom",
+  "name": "lightroom-ts",
   "version": "0.0.1-alpha.0",
   "description": "The official TypeScript library for the Lightroom API",
   "author": "Lightroom <dev-feedback@lightroom.com>",
@@ -47,8 +47,8 @@
     "typescript": "^4.8.2"
   },
   "imports": {
-    "lightroom": ".",
-    "lightroom/*": "./src/*"
+    "lightroom-ts": ".",
+    "lightroom-ts/*": "./src/*"
   },
   "exports": {
     ".": {

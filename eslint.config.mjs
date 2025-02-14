@@ -25,7 +25,7 @@ export default tseslint.config(
         {
           patterns: [
             {
-              regex: '^lightroom(/.*)?',
+              regex: '^lightroom-ts(/.*)?',
               message: 'Use a relative import, not a package import.',
             },
           ],
