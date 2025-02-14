@@ -1,6 +1,6 @@
 import fs from 'fs';
-import type { ResponseLike } from 'lightroom/internal/uploads';
-import { toFile } from 'lightroom/uploads';
+import type { ResponseLike } from 'lightroom-ts/internal/uploads';
+import { toFile } from 'lightroom-ts/uploads';
 
 class MyClass {
   name: string = 'foo';
