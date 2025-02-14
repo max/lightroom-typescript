@@ -1,10 +1,10 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-import { APIPromise } from 'lightroom/api-promise';
+import { APIPromise } from 'lightroom-ts/api-promise';
 
 import util from 'node:util';
-import Lightroom from 'lightroom';
-import { APIUserAbortError } from 'lightroom';
+import Lightroom from 'lightroom-ts';
+import { APIUserAbortError } from 'lightroom-ts';
 const defaultFetch = fetch;
 
 describe('instantiate client', () => {

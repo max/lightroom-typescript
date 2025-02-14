@@ -7,8 +7,8 @@ const config: JestConfigWithTsJest = {
     '^.+\\.(t|j)sx?$': ['@swc/jest', { sourceMaps: 'inline' }],
   },
   moduleNameMapper: {
-    '^lightroom$': '<rootDir>/src/index.ts',
-    '^lightroom/(.*)$': '<rootDir>/src/$1',
+    '^lightroom-ts$': '<rootDir>/src/index.ts',
+    '^lightroom-ts/(.*)$': '<rootDir>/src/$1',
   },
   modulePathIgnorePatterns: [
     '<rootDir>/ecosystem-tests/',

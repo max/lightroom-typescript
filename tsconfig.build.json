@@ -5,8 +5,8 @@
   "compilerOptions": {
     "rootDir": "./dist/src",
     "paths": {
-      "lightroom/*": ["dist/src/*"],
-      "lightroom": ["dist/src/index.ts"],
+      "lightroom-ts/*": ["dist/src/*"],
+      "lightroom-ts": ["dist/src/index.ts"],
     },
     "noEmit": false,
     "declaration": true,
